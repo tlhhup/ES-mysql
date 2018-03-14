@@ -30,8 +30,11 @@ public class ESTest {
 		}
 	}
 
-	// http://blog.csdn.net/u012371450/article/details/51776505
-	// https://stackoverflow.com/questions/31677563/connection-refused-error-on-elastic-search
+	// @see http://blog.csdn.net/u012371450/article/details/51776505
+	// @see https://stackoverflow.com/questions/31677563/connection-refused-error-on-elastic-search
+	// @see https://www.cnblogs.com/yidiandhappy/p/7714481.html
+	// @see http://blog.csdn.net/winsonyuan/article/details/8625877
+	// @see https://www.cnblogs.com/jager/p/5776655.html
 	@Test
 	public void query() {
 		try {
