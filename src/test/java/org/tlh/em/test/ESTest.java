@@ -20,7 +20,7 @@ public class ESTest {
 
 	@Before
 	public void before(){
-		restClient = RestClient.builder(new HttpHost("192.168.64.145", 9200, "http")).build();
+		restClient = RestClient.builder(new HttpHost("localhost", 9200, "http")).build();
 	}
 	
 	@After
